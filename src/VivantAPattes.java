@@ -1,6 +1,6 @@
 
 
-public class VivantAPattes {
+public abstract class VivantAPattes {
     private String nourriture;
     private String espece;
     private boolean aPattes = true;
