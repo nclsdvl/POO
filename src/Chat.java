@@ -10,6 +10,8 @@ public class Chat extends VivantAPattes {
 
         this.nbPattes = nbPattes;
         this.surnom = surnom;
-
     }
+
+    public void getnbPattes(){}
+    public void getSurnom(){}
 }

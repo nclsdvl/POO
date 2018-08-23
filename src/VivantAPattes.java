@@ -13,20 +13,32 @@ public abstract class VivantAPattes {
 
     }
 
-    public void manger() {
+
+    //---METHODES---//
+
+    public void manger()
+    {
         System.out.println( "Miam");
     }
     public void boire() {
         System.out.println("gloup gloup");
     }
     public void marcher() {
+            System.out.println("pas a pas");
 
-        System.out.println("pas a pas");
     }
     public void communiquer() {
+
         System.out.println("hello!!!");
     }
     public void description() {
+
         System.out.print("je suis un etre vivant");
     }
+
+    //--GETTERS--//
+
+    public void getnourriture(){}
+    public void getespecec(){}
+    public void getaPattes(){}
 }

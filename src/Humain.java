@@ -15,11 +15,29 @@ public class Humain extends VivantAPattes {
 
     }
 
+    @Override
     public void description() {
         super.description();
         System.out.println(" et je suis un humain");
     }
+
+    public int getnbMembresInferieurs()
+    {
+        return nbMembresInferieurs;
+    }
+    public void getnom (String nom) {}
+
+    public void getsurnom()
+    {
+    }
+
+    public void getenEmploi()
+    {
+    }
+
+
 }
+
 
 
 
